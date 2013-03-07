@@ -1208,7 +1208,7 @@ public class MLPT {
 	}
 	
 	public void testTESTSET() throws IOException {
-		PrintWriter pr = new PrintWriter( new FileWriter("TESTSETtry500t.txt"));	
+		PrintWriter pr = new PrintWriter( new FileWriter("TESTSETtry400srmt1.txt"));	
 		int numberOfTestPatterns = 27;
 		for (int tpn = 0; tpn < numberOfTestPatterns;tpn++) {
 			currentInputs[0] = -1.0 ;
@@ -1307,15 +1307,18 @@ public class MLPT {
 		//m1.printPatterns();
 		m1.randomizeWeights (0.5);
 		//m1.printWeights();		
-		FileWriter fw = new FileWriter( "traintvdp500t.log");
+		FileWriter fw = new FileWriter( "train400srmt1.txt");
 		PrintWriter pw = new PrintWriter( fw);
-		int k =1;		
+		int k =1;	
+		pw.println("during training cycle "+"	,"+" train error "+",  "+"test error " +",   "+ args[0]);	
 		for ( int c = 0 ; c < cycles ;c++  ) {
 			System.out.println("#############Training Cycle Number "+(c+1));
 			double rmse = m1.train();
 			double testSetError = m1.testAll();
+			
 			if (c == 10*k ) {
-			pw.println(" during training cycle "+(c+1)+" train error = "+rmse+" test error = "+testSetError);
+			pw.println((c+1)+"   ,	"+rmse+",   "+testSetError);
+			//pw.println(" during training cycle "+(c+1)+" train error = "+rmse+" test error = "+testSetError);
 			k++;
 			}
 			
@@ -1325,8 +1328,8 @@ public class MLPT {
 		pw.close();
 		fw.close();
 		System.out.println(" Reading and testing the final weights ");
-		m1.saveWeights("weightsFilevdp500t");
-		m1.readWeights("weightsFilevdp500t");				
+		m1.saveWeights("weightsFilesrm400");
+		m1.readWeights("weightsFilesrm400");				
 		m1.feedForward();
 		int choice = 0;
 		m1.test();
