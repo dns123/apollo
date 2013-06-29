@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+/* This program is used to normalize the data as per the requirement of the activation function used in Neural.java   Here in
+this case we have used bipolar logistic function as the activation function which requires the data within the range
+[-1,1].  So for any real life problem if we wish to use MLP, we require the data to be within the range [-1,1].  For
+this purpose, we have used linear map (a line joining two points given by equation (y-y1)/(y2-y1)=(x-x1)/(x2-x1)=l)
+*/
+
+
+
+
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 import java.io.*;
 import java.util.Scanner;
 import java.util.Vector;

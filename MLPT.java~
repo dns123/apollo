@@ -701,7 +701,11 @@ public class MLPT {
 				c++;
 				
 			}
+<<<<<<< HEAD
 			while ( count < 500);// here is the problem >>>> The program is not able to decide when to stop the training even after the clearity in the approach!!!!!!!  What so ever you do there is a number which is to be inserted by a human to control the no of  training cycles.
+=======
+			while ( count < 500);// here is the problem >>>> The program is not able to decide when to stop the training even after the clearity in the apprach!!!!!!!  What so ever you do there is a number which is to be inserted by a human to control the no of  training cycles.
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 
 			pw.close();
 			fw.close();
@@ -741,6 +745,7 @@ If it was the case then there was no question of minimizing the error, we would 
 
 So we should be back in the development of utility we wanted in the previous stage of the implementation.*/
 
+<<<<<<< HEAD
 /*Story Ahead ...... today as on 4/4/2013
 
 I have finally achieved (with somewhat compromises with expectations) what I wanted to achieve in terms of the capacity of the program.  Still there is a lot to done. But I am happy with the progress over the years in the program.  
@@ -750,6 +755,8 @@ In next version for development we can make the program capable enough to termin
 Still I wish to develop this as an GUI application but that is a long time goal.  As if for now I will be happy with one Research Paper on this subject !!!
 
 */
+=======
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 
 import java.io.*;
 import java.util.*;
@@ -1216,8 +1223,13 @@ public class MLPT {
 		System.out.println();
 	}
 	
+<<<<<<< HEAD
 	public void testTESTSET( int cycles) throws IOException {
 		PrintWriter pr = new PrintWriter( new FileWriter("TESTSETtry"+cycles+"srmt1.txt"));	
+=======
+	public void testTESTSET() throws IOException {
+		PrintWriter pr = new PrintWriter( new FileWriter("TESTSETtry400srmt1.txt"));	
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 		int numberOfTestPatterns = 27;
 		for (int tpn = 0; tpn < numberOfTestPatterns;tpn++) {
 			currentInputs[0] = -1.0 ;
@@ -1316,7 +1328,11 @@ public class MLPT {
 		//m1.printPatterns();
 		m1.randomizeWeights (0.5);
 		//m1.printWeights();		
+<<<<<<< HEAD
 		FileWriter fw = new FileWriter( "train" +cycles +"srmt1.txt");
+=======
+		FileWriter fw = new FileWriter( "train400srmt1.txt");
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 		PrintWriter pw = new PrintWriter( fw);
 		int k =1;	
 		pw.println("during training cycle "+"	,"+" train error "+",  "+"test error " +",   "+ args[0]);	
@@ -1337,12 +1353,21 @@ public class MLPT {
 		pw.close();
 		fw.close();
 		System.out.println(" Reading and testing the final weights ");
+<<<<<<< HEAD
 		m1.saveWeights("weightsFilesrm"+cycles);
 		m1.readWeights("weightsFilesrm"+cycles);				
 		m1.feedForward();
 		int choice = 0;
 		m1.test();
 		m1.testTESTSET(cycles);
+=======
+		m1.saveWeights("weightsFilesrm400");
+		m1.readWeights("weightsFilesrm400");				
+		m1.feedForward();
+		int choice = 0;
+		m1.test();
+		m1.testTESTSET();
+>>>>>>> 59dd52e3b873b3712e2aa700f53a98ceca271d3e
 		//m1.printNetworkOutputs();
 	}
 }
