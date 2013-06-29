@@ -1,0 +1,136 @@
+
+ For Pattern number 1 with inputs(coordinates) : 
+534.78  534.4  534.35  531.62  530.41  525.22  
+The computed Output (pressures) is : 0.6049541354312853  0.7303358539252278  1.0476524958137046  0.6063086999537863  1.00223751138976  
+The desired Output (pressures) is : 0.6  0.79  0.9  0.82  0.76  
+The RMS Error : 0.12972859694446426
+ For Pattern number 2 with inputs(coordinates) : 
+535.55  535.15  535.05  531.94  530.63  525.23  
+The computed Output (pressures) is : 0.6872797339346365  0.6463679402477075  0.8194075993832186  0.7690160075481969  1.045027286319195  
+The desired Output (pressures) is : 0.83  0.79  0.9  0.82  1.03  
+The RMS Error : 0.05031956479207464
+ For Pattern number 3 with inputs(coordinates) : 
+535.38  534.98  534.94  532.15  530.87  525.38  
+The computed Output (pressures) is : 0.6574662591613208  0.8451083385532859  1.0119965077671178  0.6762532822263638  1.0474825354726212  
+The desired Output (pressures) is : 0.71  0.99  0.86  0.74  1.05  
+The RMS Error : 0.05092630751125245
+ For Pattern number 4 with inputs(coordinates) : 
+534.25  533.89  533.74  530.63  529.42  524.47  
+The computed Output (pressures) is : 0.6227427465520454  0.600000000008778  0.9699564554641196  1.05  1.0499975272503344  
+The desired Output (pressures) is : 0.6  0.6  0.92  0.89  1.05  
+The RMS Error : 0.028612879969383637
+ For Pattern number 5 with inputs(coordinates) : 
+537.31  536.84  536.86  533.87  532.43  526.39  
+The computed Output (pressures) is : 1.0481347446312783  1.0496422241738412  0.6019499030135849  0.600389967037301  0.6000036654798883  
+The desired Output (pressures) is : 1.04  1.05  0.68  0.73  0.63  
+The RMS Error : 0.023856660442581085
+ For Pattern number 6 with inputs(coordinates) : 
+535.15  534.75  534.76  532.25  531.04  525.7  
+The computed Output (pressures) is : 0.6015231046823838  1.0499999998461802  1.0491369376447364  0.6002040500950748  1.04999997375889  
+The desired Output (pressures) is : 0.6  0.87  1.05  0.62  0.87  
+The RMS Error : 0.06519493485496687
+ For Pattern number 7 with inputs(coordinates) : 
+537.1  536.64  536.64  533.65  532.23  526.24  
+The computed Output (pressures) is : 1.0428701321707954  1.0499036261698067  0.6445382523061074  0.6011877609541044  0.6000186920248113  
+The desired Output (pressures) is : 1.02  1.05  0.66  0.76  0.66  
+The RMS Error : 0.029581202452359515
+ For Pattern number 8 with inputs(coordinates) : 
+535.52  535.12  535.08  532.26  530.99  525.56  
+The computed Output (pressures) is : 0.6674118638547321  1.0499697512950397  1.005004743580872  0.671788529712644  1.0499975794139478  
+The desired Output (pressures) is : 0.74  0.79  1.05  0.6  1.03  
+The RMS Error : 0.08043137837839211
+ For Pattern number 9 with inputs(coordinates) : 
+537.35  536.88  536.89  533.9  532.48  526.58  
+The computed Output (pressures) is : 1.0459994962560089  1.0499927670718032  0.9348800863365457  0.6003375451326461  0.6000243064095645  
+The desired Output (pressures) is : 1.05  0.88  0.91  0.63  0.65  
+The RMS Error : 0.0329099947616509
+ For Pattern number 10 with inputs(coordinates) : 
+535.37  534.97  534.96  532.27  531.01  525.52  
+The computed Output (pressures) is : 0.6522281908869901  1.0499997861528478  1.017187001652889  0.6474842577977736  1.0499999209443849  
+The desired Output (pressures) is : 0.69  1.02  0.9  0.73  1.01  
+The RMS Error : 0.02446833147602177
+ For Pattern number 11 with inputs(coordinates) : 
+536.22  535.79  535.74  532.71  531.36  525.7  
+The computed Output (pressures) is : 0.9070104149476113  1.049999870920564  1.0494226061979384  0.6127724436158581  0.7405063952687487  
+The desired Output (pressures) is : 0.91  0.89  0.72  0.83  0.68  
+The RMS Error : 0.18497698490866815
+ For Pattern number 12 with inputs(coordinates) : 
+535.34  534.94  534.89  532.04  530.79  525.47  
+The computed Output (pressures) is : 0.6461223060866292  0.7926631194917673  1.0237610242659545  0.6643887206769308  1.0456838874145522  
+The desired Output (pressures) is : 0.73  0.8  1.04  0.74  0.98  
+The RMS Error : 0.017384440311466885
+ For Pattern number 13 with inputs(coordinates) : 
+534.21  533.86  533.7  530.57  529.35  524.4  
+The computed Output (pressures) is : 0.6260907944902383  0.6000000000078315  0.9557662925160065  1.05  1.049997967915665  
+The desired Output (pressures) is : 0.6  0.63  0.86  0.92  1.05  
+The RMS Error : 0.02765191234305266
+ For Pattern number 14 with inputs(coordinates) : 
+535.15  534.76  534.7  531.85  530.6  525.33  
+The computed Output (pressures) is : 0.6382424096952336  0.7607029364086151  1.0286958984499186  0.6682437543024962  1.0447305005266976  
+The desired Output (pressures) is : 0.7  0.8  1.03  0.74  1.03  
+The RMS Error : 0.010725906290377224
+ For Pattern number 15 with inputs(coordinates) : 
+535.23  534.84  534.73  531.6  530.32  524.96  
+The computed Output (pressures) is : 0.6769000645538338  0.6056274816476003  0.8580623534221055  1.037551117772831  1.0481311565993174  
+The desired Output (pressures) is : 0.74  0.6  0.91  0.6  1.02  
+The RMS Error : 0.1989531321709238
+ For Pattern number 16 with inputs(coordinates) : 
+537.14  536.69  536.67  533.55  532.11  526.1  
+The computed Output (pressures) is : 1.0485282165291918  0.960630841390385  0.6000003189129186  0.6012404749580472  0.6000005080696185  
+The desired Output (pressures) is : 1.05  0.99  0.6  0.77  0.62  
+The RMS Error : 0.029744470593982258
+ For Pattern number 17 with inputs(coordinates) : 
+536.12  535.7  535.6  532.44  531.13  525.79  
+The computed Output (pressures) is : 0.8233022812004241  1.0499999358694603  1.0483072776601696  0.6276790087149299  1.0480498188063858  
+The desired Output (pressures) is : 0.97  0.7  1.03  0.94  0.76  
+The RMS Error : 0.3248724319366328
+ For Pattern number 18 with inputs(coordinates) : 
+535.44  535.04  534.96  531.95  530.67  525.28  
+The computed Output (pressures) is : 0.6716614036129223  0.7109877341035984  0.9646715820538452  0.7260997978090409  1.04625724754712  
+The desired Output (pressures) is : 0.76  0.7  0.92  0.69  0.91  
+The RMS Error : 0.029789221066534567
+ For Pattern number 19 with inputs(coordinates) : 
+535.05  534.67  534.55  531.45  530.2  525.04  
+The computed Output (pressures) is : 0.655234558024939  0.6000655033740194  0.9664901062945488  1.049997076190616  1.0497376459397074  
+The desired Output (pressures) is : 0.74  0.6  1.05  0.75  1.05  
+The RMS Error : 0.10415740134318648
+ For Pattern number 20 with inputs(coordinates) : 
+535.07  534.68  534.62  531.77  530.54  525.31  
+The computed Output (pressures) is : 0.6298296231636579  0.7455581105336556  1.0340631006199776  0.6633287086539439  1.0434378012624825  
+The desired Output (pressures) is : 0.69  0.79  1.03  0.78  1.0  
+The RMS Error : 0.021111097377489493
+ For Pattern number 21 with inputs(coordinates) : 
+535.64  535.24  535.1  531.86  530.57  525.4  
+The computed Output (pressures) is : 0.6835416548861042  0.6068424663433153  0.8370328271209745  1.0293405203914963  1.04769956370497  
+The desired Output (pressures) is : 0.9  0.6  0.9  1.05  0.6  
+The RMS Error : 0.2517276128147976
+ For Pattern number 22 with inputs(coordinates) : 
+537.18  536.72  536.71  533.65  532.22  526.22  
+The computed Output (pressures) is : 1.0475086196886902  1.0466389787558845  0.6000928661266244  0.6009224172596739  0.6000023965508259  
+The desired Output (pressures) is : 1.05  1.03  0.63  0.8  0.62  
+The RMS Error : 0.041209287339856196
+ For Pattern number 23 with inputs(coordinates) : 
+535.39  534.99  534.92  531.99  530.74  525.45  
+The computed Output (pressures) is : 0.6547288605531499  0.7623320836253363  1.014339464641436  0.6901795427351539  1.0461201317267983  
+The desired Output (pressures) is : 0.74  0.6  1.05  0.63  0.84  
+The RMS Error : 0.08100163244565164
+ For Pattern number 24 with inputs(coordinates) : 
+535.28  534.88  534.82  531.9  530.63  525.28  
+The computed Output (pressures) is : 0.6576051870459051  0.7475159668877961  1.007973160891981  0.7045928391609236  1.0463311766365921  
+The desired Output (pressures) is : 0.72  0.74  0.91  0.71  0.88  
+The RMS Error : 0.04124364040665379
+ For Pattern number 25 with inputs(coordinates) : 
+535.45  535.04  535.03  532.33  531.04  525.48  
+The computed Output (pressures) is : 0.6714581285375764  1.049999980346986  0.9981658404404071  0.6672013438500417  1.04999999040699  
+The desired Output (pressures) is : 0.69  1.01  0.84  0.67  1.01  
+The RMS Error : 0.02856806421611363
+ For Pattern number 26 with inputs(coordinates) : 
+535.16  534.78  534.65  531.4  530.09  524.67  
+The computed Output (pressures) is : 0.701697921774184  0.6000009293887346  0.6104288628691511  1.0499997709172997  1.0494461399993011  
+The desired Output (pressures) is : 0.74  0.6  0.78  0.6  1.05  
+The RMS Error : 0.23272152033165205
+ For Pattern number 27 with inputs(coordinates) : 
+537.16  536.69  536.7  533.75  532.36  526.53  
+The computed Output (pressures) is : 1.031571057569932  1.049999453222194  1.049233781638475  0.600933448957015  0.6002198222650409  
+The desired Output (pressures) is : 1.02  0.88  0.98  0.63  0.72  
+The RMS Error : 0.04901917535684844
